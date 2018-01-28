@@ -14,7 +14,7 @@ module.exports = opts => buf => {
 		return Promise.resolve(buf);
 	}
 
-	const args = ['-copy', 'none'];
+	const args = ['-copy', 'all'];
 
 	if (opts.progressive) {
 		args.push('-progressive');
